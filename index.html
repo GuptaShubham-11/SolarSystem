@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solar System Simulator</title>
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+
+<body>
+  <button id="toggleSidebar">☰</button> <!-- Moved outside sidebar -->
+
+  <aside id="sidebar">
+    <h2>Solar System</h2>
+    <div class="buttons">
+      <button id="pauseBtn">⏸ Pause</button>
+      <button id="resumeBtn">▶ Resume</button>
+    </div>
+    <label>
+      <input type="checkbox" id="toggleOrbits" checked />
+      Show Orbits
+    </label>
+    <hr />
+    <div id="sliders"></div>
+    <div id="planetData"></div>
+  </aside>
+
+  <canvas id="solarCanvas"></canvas>
+  <div id="tooltip" class="hidden"></div>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+
+</html>
