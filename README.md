@@ -14,7 +14,7 @@ A **realistic 3D solar system simulator** built with **Three.js**, featuring:
 
 ## 🚀 Demo
 
-> ![Live Demo](https://solar-system-liart-rho.vercel.app/)
+> [Live Demo](https://solar-system-liart-rho.vercel.app/)
 
 ---
 
